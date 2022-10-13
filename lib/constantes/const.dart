@@ -15,6 +15,7 @@ const List songs = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Vicente Fernández",
     "duracion": "Duración: 01:40 min",
+       "song": "songs/ballena.mp3",
 
   },
   {
@@ -24,6 +25,7 @@ const List songs = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Delfin",
     "duracion": "Duración: 01:50 min",
+       "song": "songs/delfin.mp3",
   },
   {
     "img": "assets/images/img_3.jpg",
@@ -32,6 +34,7 @@ const List songs = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Mario Fuentes",
     "duracion": "Duración: 02:50 min",
+       "song": "songs/foca.mp3",
   },
   {
     "img": "assets/images/img_4.jpg",
@@ -40,6 +43,7 @@ const List songs = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Benito Juarez",
     "duracion": "Duración: 03:50 min",
+       "song": "songs/elefante.mp3",
   },
   {
     
@@ -49,6 +53,7 @@ const List songs = [
     "color": Color(0xFFf69129),
     "artista": "Artista: José Pérez",
     "duracion": "Duración: 02:40 min",
+       "song": "songs/oso.mp3",
   },
   
 ];
@@ -61,6 +66,7 @@ const List songs2 = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Banda los peces",
     "duracion": "Duración: 02:45 min",
+    "song": "songs/lobo.mp3",
 
   },
   {
@@ -70,6 +76,7 @@ const List songs2 = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Pedro Palomo",
     "duracion": "Duración: 02:10 min",
+       "song": "songs/leon.mp3",
   },
   {
     "img": "assets/images/img_8.jpg",
@@ -78,6 +85,7 @@ const List songs2 = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Alcides Sorto",
     "duracion": "Duración: 01:50 min",
+       "song": "songs/pantera.mp3",
   },
   {
     "img": "assets/images/img_9.jpg",
@@ -86,6 +94,7 @@ const List songs2 = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Los zorros de tijuana",
     "duracion": "Duración: 01:50 min",
+       "song": "songs/tigre.mp3",
   },
   {
     
@@ -95,6 +104,7 @@ const List songs2 = [
     "color": Color(0xFFf69129),
     "artista": "Artista: Los Tigres del Norte",
     "duracion": "Duración: 03:40 min",
+       "song": "songs/alce.mp3",
   },
   
 ];

@@ -5,6 +5,7 @@ import 'package:AlbumAnimales/paginas/detalleCanciones.dart';
 import 'package:AlbumAnimales/paginas/home.dart';
 import '../constantes/const.dart';
 import 'detalleCanciones.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class AlbumPagina extends StatefulWidget {
   final dynamic song;
@@ -17,6 +18,18 @@ class AlbumPagina extends StatefulWidget {
 
 class _AlbumPaginaState extends State<AlbumPagina> {
   @override
+  final player = AudioCache();
+  final audioPlayer = AudioPlayer();
+
+  @override
+  void initState(){
+
+    super.initState();
+    final audioPlayer = AudioPlayer();
+    final audiocache = AudioCache(fixedPlayer: audioPlayer);
+    
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 209, 149, 199),
@@ -73,6 +86,14 @@ class _AlbumPaginaState extends State<AlbumPagina> {
                       fontWeight: FontWeight.bold,
                       color: Color.fromARGB(255, 16, 3, 77)),
                 ),
+                IconButton(icon: Icon(Icons.play_arrow),
+                           onPressed: (){
+                            player.play(widget.song['song']);
+                          },),
+                IconButton(icon: Icon(Icons.stop),
+                           onPressed: (){
+                            audioPlayer.stop();
+                          },)          
                /* Text(
                   widget.song['artista'],
                   style: TextStyle(

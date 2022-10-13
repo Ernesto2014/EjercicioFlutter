@@ -1,7 +1,9 @@
 
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:AlbumAnimales/paginas/albumpagina.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 import '../constantes/const.dart';
 import 'package:page_transition/page_transition.dart';
@@ -16,6 +18,7 @@ class PaginaPrincipal extends StatefulWidget {
 class _PaginaPrincipalState extends State<PaginaPrincipal> {
   int activoMenu1=0;
   int activoMenu2=0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -250,9 +253,7 @@ class _PaginaPrincipalState extends State<PaginaPrincipal> {
                                Text(songs2[index]['title'], style: TextStyle(
                                  fontSize: 15, 
                                  color: Colors.black,
-                                 fontWeight: FontWeight.w600),),
-
-                               
+                                 fontWeight: FontWeight.w600),),                               
                           ],
                         ),
                       ),
